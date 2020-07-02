@@ -1,0 +1,484 @@
+    body {
+    background: rgb(244, 255, 213);
+    }
+    * { margin: 0; padding: 0; }
+
+    
+    .slider {
+        display: block;
+        height: 500px;
+        width: 1000px;
+        margin: auto;
+        margin-left: 0px;
+        position: relative;
+        margin-left: 700px;
+        
+    }
+        
+    .slider li {
+        list-style: none;
+        position: absolute;
+    }
+        
+    .slider img {
+        margin: auto;
+        height: 100%;
+        width: 100%;
+        vertical-align: top;
+    }
+
+    .slider input {
+        display: none;
+    }
+
+    .slider label {
+        background-color: #000;
+        bottom: 10px;
+        cursor: pointer;
+        display: block;
+        height: 10px;
+        position: absolute;
+        width: 10px;
+        z-index: 10;
+    }
+        
+    .slider li:nth-child(1) label {
+        left: 10px;
+    }
+        
+    .slider li:nth-child(2) label {
+        left: 40px;
+    }
+        
+    .slider li:nth-child(3) label {
+        left: 70px;
+    }
+
+    .slider img {
+        opacity: 0;
+        visibility: hidden;
+    }
+        
+    .slider li input:checked ~ img {
+        opacity: 1;
+        visibility: visible;
+        z-index: 10;
+    }
+
+    header img{
+        margin-top: 50px;
+        margin-left: 50px;
+        width: 200px;
+        height: 200px;
+        float: left;
+    }
+
+    header h1 {
+        text-align: center;
+        font-size: 100px;
+        font-family: Arial;
+        color: orange;
+    }
+
+    header {
+        background: rgb(151, 0, 0);
+        margin-left: 0px;
+    }
+
+    .cardapio {
+        margin-left: 500px;
+        margin-right: 500px;
+        background-color: rgba(255, 255, 255, 0.726);
+    }
+
+    body h2 {
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+
+    body h4 {
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;   
+    }
+
+    body p {
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body img {
+        float: left;
+        margin-right: 10px;
+    }
+
+    body img {
+        float: left;
+        margin-right: 10px;
+    }
+    
+    body h3 {
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body h5 {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .imagem2 {
+        float: left;
+    }
+
+    .parallax {
+        background-image: url("img/fundo.jpg");
+        min-height: 350px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+
+    header a {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        margin-left: 1150px;
+        color: orange;
+    }
+
+    .receita {
+        margin-left: 500px;
+        margin-right: 500px;
+        background-color: rgba(255, 255, 255, 0.726);
+    }
+    
+    .receita h2 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .receita h1 {
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .receita h3 {
+        font-size: 35px;
+    }
+
+    form {
+        margin: 0 auto;
+        width: 400px;
+    }
+
+    form div + div {
+        margin-top: 1em;
+    }
+
+    label {
+        display: inline-block;
+        width: 90px;
+        text-align: right;
+    }
+
+    input, textarea {
+        font: 1em Arial, Helvetica, sans-serif;
+        width: 300px;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid rgb(0, 0, 0);
+    }
+
+    input:focus, textarea:focus {
+        border-color: rgb(80, 80, 80);
+    }
+
+    .button {
+        padding-left: 90px;
+    }
+    
+    button {
+        margin-left: .5em;
+    }
+
+    .formulario h1 {
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+
+    footer {
+        background-color: white;
+        text-align: center;
+    }
+
+    a:link {
+        color: green;
+        text-decoration: none;
+      }
+       
+      a:visited {
+        color: blue;
+        text-decoration: none;
+      }
+       
+      a:hover {
+        color: pink;
+        text-decoration: none;
+      }
+       
+      a:active {
+        color: yellow;
+        text-decoration: none;
+      }
+      
+      a {
+          font-size: 50px;
+          font-family: Arial, Helvetica, sans-serif;
+      }
+
+    @media only screen and (max-device-width: 900px) {
+            body {
+    background: rgb(244, 255, 213);
+    }
+    * { margin: 0; padding: 0; }
+
+    
+    .slider {
+        display: block;
+        height: 250px;
+        width: 500px;
+        margin: auto;
+        margin-left: 0px;
+        position: relative;
+        margin-left: 350px; 
+    }
+        
+    .slider li {
+        list-style: none;
+        position: absolute;
+    }
+        
+    .slider img {
+        margin: auto;
+        height: 100%;
+        width: 100%;
+        vertical-align: top;
+    }
+
+    .slider input {
+        display: none;
+    }
+
+    .slider label {
+        background-color: #000;
+        bottom: 10px;
+        cursor: pointer;
+        display: block;
+        height: 10px;
+        position: absolute;
+        width: 10px;
+        z-index: 10;
+    }
+        
+    .slider li:nth-child(1) label {
+        left: 10px;
+    }
+        
+    .slider li:nth-child(2) label {
+        left: 40px;
+    }
+        
+    .slider li:nth-child(3) label {
+        left: 70px;
+    }
+
+    .slider img {
+        opacity: 0;
+        visibility: hidden;
+    }
+        
+    .slider li input:checked ~ img {
+        opacity: 1;
+        visibility: visible;
+        z-index: 10;
+    }
+
+    header img{
+        margin-top: 50px;
+        margin-left: 50px;
+        width: 200px;
+        height: 200px;
+        float: left;
+    }
+
+    header h1 {
+        text-align: center;
+        font-size: 50px;
+        font-family: Arial;
+        color: orange;
+    }
+
+    header {
+        background: rgb(151, 0, 0);
+    }
+
+    .cardapio {
+        margin-left: 250px;
+        margin-right: 250px;
+        background-color: rgba(255, 255, 255, 0.726);
+    }
+
+    body h2 {
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+
+    body h4 {
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;   
+        text-align: center;
+    }
+
+    body p {
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+
+    body img {
+        float: left;
+        margin-right: 10px;
+    }
+
+    body img {
+        float: left;
+        margin-right: 10px;
+    }
+    
+    body h3 {
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+
+    body h5 {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+
+    .imagem2 {
+        float: left;
+    }
+
+    .parallax {
+        background-image: url("img/fundo.jpg");
+        min-height: 350px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+
+    header a {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        margin-left: 1150px;
+        color: orange;
+    }
+
+    .receita {
+        margin-left: 250px;
+        margin-right: 250px;
+        background-color: rgba(255, 255, 255, 0.726);
+    }
+    
+    .receita h2 {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .receita h1 {
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+
+    .receita h3 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    form {
+        margin: 0 auto;
+        width: 400px;
+    }
+
+    form div + div {
+        margin-top: 1em;
+    }
+
+    label {
+        display: inline-block;
+        width: 90px;
+        text-align: right;
+    }
+
+    input, textarea {
+        font: 1em Arial, Helvetica, sans-serif;
+        width: 300px;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid rgb(0, 0, 0);
+    }
+
+    input:focus, textarea:focus {
+        border-color: rgb(80, 80, 80);
+    }
+
+    .button {
+        padding-left: 90px;
+    }
+    
+    button {
+        margin-left: .5em;
+    }
+
+    .formulario h1 {
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+
+    footer {
+        background-color: white;
+        text-align: center;
+    }
+
+    a:link {
+        color: green;
+        text-decoration: none;
+      }
+       
+      a:visited {
+        color: blue;
+        text-decoration: none;
+      }
+       
+      a:hover {
+        color: pink;
+        text-decoration: none;
+      }
+       
+      a:active {
+        color: yellow;
+        text-decoration: none;
+      }
+      
+      a {
+          font-size: 50px;
+          font-family: Arial, Helvetica, sans-serif;
+      }
+
+    }
